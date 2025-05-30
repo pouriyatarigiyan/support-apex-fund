@@ -40,7 +40,7 @@ body {
   font-family: 'Orbitron', sans-serif !important;
   font-size: 22px;
   color: #ffffff;
-  text-shadow: 0 0 8px #fff, 0 0 12px #e064ff;
+  text-shadow: 0 0 8px #a42cb8;
   margin-bottom: 20px;
   text-align: center;
   font-weight: 700;
@@ -73,7 +73,7 @@ body {
   justify-content: center;
   gap: 10px;
   padding: 12px 20px;
-  color: #004AAD;
+  color: #a42cb8;
   background: white;
   font-weight: bold;
   font-family: 'Homa', sans-serif;
@@ -86,13 +86,13 @@ body {
 }
 
 .neon-button:hover {
-  box-shadow: 0 0 20px white, 0 0 40px #00e1ff;
+  box-shadow: 0 0 20px white, 0 0 40px #a42cb8;
   transform: scale(1.05);
 }
 
 .arrow {
   animation: blink 1s infinite;
-  color: #00e1ff;
+  color: #a42cb8;
   font-size: 18px;
   transform: rotate(0deg);
 }
@@ -138,7 +138,7 @@ body {
 
 @keyframes pulse {
   0% { box-shadow: 0 0 10px white, 0 0 20px #fff; }
-  50% { box-shadow: 0 0 20px white, 0 0 40px #00e1ff; }
+  50% { box-shadow: 0 0 20px white, 0 0 40px #a42cb8; }
   100% { box-shadow: 0 0 10px white, 0 0 20px #fff; }
 }
 
