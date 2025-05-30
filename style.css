@@ -73,7 +73,7 @@ body {
   justify-content: center;
   gap: 10px;
   padding: 12px 20px;
-  color: #004AAD;
+  color: #9b59b6;
   background: white;
   font-weight: bold;
   font-family: 'Homa', sans-serif;
@@ -86,18 +86,15 @@ body {
 }
 
 .neon-button:hover {
-  box-shadow: 0 0 20px white, 0 0 40px #00e1ff;
+  box-shadow: 0 0 20px white, 0 0 40px #9b59b6;
   transform: scale(1.05);
 }
 
 .arrow {
   animation: blink 1s infinite;
-  color: #00e1ff;
+  color: #9b59b6;
   font-size: 18px;
-  transform: rotate(0deg); /* فلش سمت چپ */
-  /* اگر خواستی راست بشه این رو بذار:
-  transform: rotate(180deg);
-  */
+  transform: rotate(0deg);
 }
 
 @media (min-width: 768px) {
@@ -141,7 +138,7 @@ body {
 
 @keyframes pulse {
   0% { box-shadow: 0 0 10px white, 0 0 20px #fff; }
-  50% { box-shadow: 0 0 20px white, 0 0 40px #00e1ff; }
+  50% { box-shadow: 0 0 20px white, 0 0 40px #9b59b6; }
   100% { box-shadow: 0 0 10px white, 0 0 20px #fff; }
 }
 
