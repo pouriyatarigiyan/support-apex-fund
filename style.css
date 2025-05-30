@@ -40,7 +40,7 @@ body {
   font-family: 'Orbitron', sans-serif !important;
   font-size: 22px;
   color: #ffffff;
-  text-shadow: 0 0 8px #00f0ff;
+  text-shadow: 0 0 8px #a42cb8;
   margin-bottom: 20px;
   text-align: center;
   font-weight: 700;
@@ -80,19 +80,19 @@ body {
   letter-spacing: 0.5px;
   border-radius: 50px;
   text-decoration: none;
-  box-shadow: 0 0 10px white, 0 0 20px #fff;
+  box-shadow: 0 0 10px white, 0 0 20px #a42cb8;
   animation: pulse 2s infinite;
   transition: all 0.3s ease-in-out;
 }
 
 .neon-button:hover {
-  box-shadow: 0 0 20px white, 0 0 40px #00e1ff;
+  box-shadow: 0 0 20px white, 0 0 40px #a42cb8;
   transform: scale(1.05);
 }
 
 .arrow {
   animation: blink 1s infinite;
-  color: #00e1ff;
+  color: #a42cb8;
   font-size: 18px;
   transform: rotate(0deg); /* فلش سمت چپ */
   /* اگر خواستی راست بشه این رو بذار:
