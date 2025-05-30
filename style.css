@@ -40,7 +40,7 @@ body {
   font-family: 'Orbitron', sans-serif !important;
   font-size: 22px;
   color: #ffffff;
-  text-shadow: 0 0 8px #a42cb8;
+  text-shadow: 0 0 8px #00f0ff;
   margin-bottom: 20px;
   text-align: center;
   font-weight: 700;
@@ -73,7 +73,7 @@ body {
   justify-content: center;
   gap: 10px;
   padding: 12px 20px;
-  color: #a42cb8;
+  color: #004AAD;
   background: white;
   font-weight: bold;
   font-family: 'Homa', sans-serif;
@@ -86,15 +86,18 @@ body {
 }
 
 .neon-button:hover {
-  box-shadow: 0 0 20px white, 0 0 40px #a42cb8;
+  box-shadow: 0 0 20px white, 0 0 40px #00e1ff;
   transform: scale(1.05);
 }
 
 .arrow {
   animation: blink 1s infinite;
-  color: #a42cb8;
+  color: #00e1ff;
   font-size: 18px;
-  transform: rotate(0deg);
+  transform: rotate(0deg); /* فلش سمت چپ */
+  /* اگر خواستی راست بشه این رو بذار:
+  transform: rotate(180deg);
+  */
 }
 
 @media (min-width: 768px) {
@@ -138,7 +141,7 @@ body {
 
 @keyframes pulse {
   0% { box-shadow: 0 0 10px white, 0 0 20px #fff; }
-  50% { box-shadow: 0 0 20px white, 0 0 40px #a42cb8; }
+  50% { box-shadow: 0 0 20px white, 0 0 40px #00e1ff; }
   100% { box-shadow: 0 0 10px white, 0 0 20px #fff; }
 }
 
@@ -146,3 +149,4 @@ body {
   0%, 100% { opacity: 1; }
   50% { opacity: 0.3; }
 }
+
